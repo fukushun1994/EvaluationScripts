@@ -7,7 +7,7 @@ The result for each segment is a dictionary object wihch contains `word_list`,`y
 
 ```python
 {
-  'labels': ['label1, label2, ...'], # labels 
+  'label_list': ['label1, label2, ...'], # labels
   'results':
     # results for each segment
     [
