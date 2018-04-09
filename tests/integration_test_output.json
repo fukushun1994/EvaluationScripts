@@ -1,0 +1,248 @@
+{
+    "label_list": ["label1", "label2", "label3", "label4", "label5"],
+    "classification": {
+        "by_chunk": {
+            "each_chunk": [
+                {
+                    "TP": 3,
+                    "FP": 0,
+                    "FN": 0,
+                    "TN": 2,
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "F-measure": 1.0,
+                    "exact_match": 1,
+                    "partial_match": 1
+                },
+                {
+                    "TP": 2,
+                    "FP": 0,
+                    "FN": 2,
+                    "TN": 1,
+                    "precision": 1.0,
+                    "recall": 0.5,
+                    "F-measure": 0.6666666666666666,
+                    "exact_match": 0,
+                    "partial_match": 1
+                },
+                {
+                    "TP": 0,
+                    "FP": 3,
+                    "FN": 1,
+                    "TN": 1,
+                    "precision": 0.0,
+                    "recall": 0.0,
+                    "F-measure": 0.0,
+                    "exact_match": 0,
+                    "partial_match": 0
+                }
+            ],
+            "total": {
+                "TP": 5,
+                "FP": 3,
+                "FN": 3,
+                "TN": 4,
+                "macro_precision": 0.6666666666666666,
+                "macro_recall": 0.5,
+                "macro_F-measure": 0.5555555555555556,
+                "micro_precision": 0.625,
+                "micro_recall": 0.625,
+                "micro_F-measure": 0.625,
+                "exact_match": 0.3333333333333333,
+                "partial_match": 0.6666666666666666
+            }
+        },
+        "by_label": [
+            {
+                "TP": 0,
+                "FP": 0,
+                "FN": 2,
+                "TN": 1,
+                "precision": 1.0,
+                "recall": 0.0,
+                "F-measure": 0.0
+            },
+            {
+                "TP": 2,
+                "FP": 1,
+                "FN": 0,
+                "TN": 0,
+                "precision": 0.6666666666666666,
+                "recall": 1.0,
+                "F-measure": 0.8
+            },
+            {
+                "TP": 1,
+                "FP": 1,
+                "FN": 0,
+                "TN": 1,
+                "precision": 0.5,
+                "recall": 1.0,
+                "F-measure": 0.6666666666666666
+            },
+            {
+                "TP": 0,
+                "FP": 1,
+                "FN": 1,
+                "TN": 1,
+                "precision": 0.0,
+                "recall": 0.0,
+                "F-measure": 0.0
+            },
+            {
+                "TP": 2,
+                "FP": 0,
+                "FN": 0,
+                "TN": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "F-measure": 1.0
+            }
+        ]
+    },
+    "evidence": [
+      {
+          "each_chunk": [
+              null,
+              null,
+              null
+          ],
+          "total": null
+      },
+      {
+          "each_chunk": [
+              {
+                  "TPs": [2, 1, 0, 0],
+                  "FPs": [0, 0, 0, 0],
+                  "FNs": [0, 0, 0, 0],
+                  "precision": 1.0,
+                  "recall": 1.0,
+                  "F-measure": 1.0,
+                  "BLEU": 0.7071067811865476,
+                  "ROUGE": 0.7071067811865476,
+                  "exact_match": 1,
+                  "partial_match": 1
+              },
+              {
+                  "TPs": [0, 0, 0, 0],
+                  "FPs": [0, 0, 0, 0],
+                  "FNs": [2, 1, 0, 0],
+                  "precision": 1.0,
+                  "recall": 0.0,
+                  "F-measure": 0.0,
+                  "BLEU": 0.5,
+                  "ROUGE": 0.0,
+                  "exact_match": 0,
+                  "partial_match": 0
+              },
+              null
+          ],
+          "total": {
+              "TPs": [2, 1, 0, 0],
+              "FPs": [0, 0, 0, 0],
+              "FNs": [2, 1, 0, 0],
+              "macro_precision": 1.0,
+              "macro_recall": 0.5,
+              "macro_F-measure": 0.5,
+              "macro_BLEU": 0.6035533905932737,
+              "macro_ROUGE": 0.3535533905932738,
+              "micro_precision": 1.0,
+              "micro_recall": 0.5,
+              "micro_F-measure": 0.6666666666666666,
+              "micro_BLEU": 0.7071067811865476,
+              "micro_ROUGE": 0.537284965911771,
+              "exact_match": 0.5,
+              "partial_match": 0.5
+          }
+      },
+      {
+          "each_chunk": [
+              {
+                  "TPs": [2, 1, 0, 0],
+                  "FPs": [1, 0, 0, 0],
+                  "FNs": [0, 0, 0, 0],
+                  "precision": 0.6666666666666666,
+                  "recall": 1.0,
+                  "F-measure": 0.8,
+                  "BLEU": 0.6389431042462724,
+                  "ROUGE": 0.7071067811865476,
+                  "exact_match": 0,
+                  "partial_match": 1
+              },
+              null,
+              null
+          ],
+          "total": {
+              "TPs": [2, 1, 0, 0],
+              "FPs": [1, 0, 0, 0],
+              "FNs": [0, 0, 0, 0],
+              "macro_precision": 0.6666666666666666,
+              "macro_recall": 1.0,
+              "macro_F-measure": 0.8,
+              "macro_BLEU": 0.6389431042462724,
+              "macro_ROUGE": 0.7071067811865476,
+              "micro_precision": 0.6666666666666666,
+              "micro_recall": 1.0,
+              "micro_F-measure": 0.8,
+              "micro_BLEU": 0.6389431042462724,
+              "micro_ROUGE": 0.7071067811865476,
+              "exact_match": 0.0,
+              "partial_match": 1.0
+          }
+      },
+      {
+          "each_chunk": [
+              null,
+              null,
+              null
+          ],
+          "total": null
+      },
+      {
+          "each_chunk": [
+              {
+                  "TPs": [0, 0, 0, 0],
+                  "FPs": [2, 1, 0, 0],
+                  "FNs": [4, 3, 2, 1],
+                  "precision": 0.0,
+                  "recall": 0.0,
+                  "F-measure": 0.0,
+                  "BLEU": 0.0,
+                  "ROUGE": 0.0,
+                  "exact_match": 0,
+                  "partial_match": 0
+              },
+              {
+                  "TPs": [2, 1, 0, 0],
+                  "FPs": [0, 0, 0, 0],
+                  "FNs": [3, 3, 3, 2],
+                  "precision": 1.0,
+                  "recall": 0.4,
+                  "F-measure": 0.5714285714285714,
+                  "BLEU": 0.7071067811865476,
+                  "ROUGE": 0.33980884896942454,
+                  "exact_match": 0,
+                  "partial_match": 1
+              },
+              null
+          ],
+          "total": {
+              "TPs": [2, 1, 0, 0],
+              "FPs": [2, 1, 0, 0],
+              "FNs": [7, 6, 5, 3],
+              "macro_precision": 0.5,
+              "macro_recall": 0.2,
+              "macro_F-measure": 0.2857142857142857,
+              "macro_BLEU": 0.3535533905932738,
+              "macro_ROUGE": 0.16990442448471227,
+              "micro_precision": 0.5,
+              "micro_recall": 0.2222222222222222,
+              "micro_F-measure": 0.3076923076923077,
+              "micro_BLEU": 0.537284965911771,
+              "micro_ROUGE": 0.2193456688254154,
+              "exact_match": 0.0,
+              "partial_match": 0.5
+          }
+      }
+    ]
+}
